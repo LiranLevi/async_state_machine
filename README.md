@@ -1,4 +1,4 @@
-Executing as follows in command line:
+To run the state machine, type the following command:
 
 "node main.js <path_to_flows_directory>"
 
@@ -6,14 +6,14 @@ For example:
 
 "node main.js ./flows"
 
-The log shows on console (stdout).
+The log can be seen at the console (stdout).
 
-If you want the log into a log file, you should executing the state machine as follows:
+To move the state machine log (stdout) to log file, type the following command:
 
 "node main.js <path_to_flows_directory> > log.txt 2>&1"
 
 For example:
 
-"node main.js ./flows"
+"node main.js ./flows > log.txt 2>&1"
 
 Good Luck:)
