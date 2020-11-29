@@ -1,4 +1,4 @@
-Running as follows in command line:
+Executing as follows in command line:
 
 "node main.js <path_to_flows_directory>"
 
